@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: dosis;
+}
+
+table {
+    margin: 50px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+td,th {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.orange {
+    background: orange;
+    color: white;
+}
+.blue {
+    background: rgb(77, 77, 199);
+    color: white;
+}
+.green {
+    background: rgb(55, 169, 55);
+    color: white;
+}
+td:hover{
+    background: black;
+    color: red;
+}
+th:hover{
+    background: gray;
+    color: pink;
+}
+
+
